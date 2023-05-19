@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+  background-image: url(img/png_confetti_85606.png);
+  /* background-color: black; */
+}
+
+.text{
+  color: #ffffff;
+}
+
+.arav{
+  font-size: 260px;
+  color: #14b4cc;
+  margin-top: 50px;
+}
+.congrats{
+  margin-top: 60px;
+  color: #14b4cc;
+}
+.header {
+  /* background-color: #0099cc; */
+  color: #ffffff;
+  padding: 5px;
+}
+
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+
+/* For mobile phones */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* Optional: Add other media queries as needed */
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url(img/png_confetti_85606.png);
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .bside,
+  .aside {
+    width: 100%;
+    margin: 10px;
+  }
+  .footer{
+    margin-top: 50px;
+  }
+}
